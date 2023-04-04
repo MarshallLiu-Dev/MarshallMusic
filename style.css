@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background:url(macos-13-macos-ventura-macos-2022-stock-light-5k-retina-6016x3384-8135.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Top-Container*/   
+
+.container {
+    width: 265px;
+    height: 658px;
+    background: rgb(255,255,255,0.2);
+    border-radius: 15px;
+    backdrop-filter:blur(15px);
+    border: 2px solid rgba(255,255,255,0.2);
+    padding:7px 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Top-Container*/
+
+.top-panel{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* botoes Mac OS */
+
+.top-panel div:nth-of-type(1){
+    background-color: #f00;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.top-panel div:nth-of-type(2){
+    background-color: #ffaa00;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.top-panel div:nth-of-type(3){
+    background-color: #0c0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+/* botoes Mac OS */
+
+/*Logo*/
+
+.logo-panel{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fc3c44;
+}
+
+.logo-panel img{
+    width:25vh;
+    height: 80px;
+}
+
+/*Menu*/
+
+.menu-option{
+    width:100%;
+    height: 288px;
+    font-size: 1rem;
+    padding: 5px 0;
+}
+
+.menu-option span{
+    display:block;
+    margin:4px auto 15px auto;
+    height: 2px;
+    background: linear-gradient(to right,rgba(30,87,153,0) 0%,rgba(253,254,254,0.98) 50%,rgba(255,255,255) 51%, rgba(225,228,256,0) 99%, rgba(259,258,259,0)100%);
+}
+.menu-option h4{
+    color: #fff;
+}
+
+.menu-option ul{
+    list-style: none;
+    padding: 10px 0;
+}
+
+
+.menu-option ul li a{
+    text-decoration: none;
+    color: #eee;
+}
+
+.menu-option i{
+    text-decoration: none;
+    color: #fc3c44;
+}
